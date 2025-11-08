@@ -24,10 +24,3 @@ def vigenere (key, text, mode):
 
     return result
 
-print("*** Vigenere Cipher ***")
-mode = input("Encrypt or Decrypt: ").lower()
-key = input("Enter key: ")
-text = input("Enter text: ")
-
-output = vigenere(key, text, mode)
-print(f"Result: {output}")
