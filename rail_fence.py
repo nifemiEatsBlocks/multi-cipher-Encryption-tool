@@ -78,12 +78,3 @@ def cipher_decryption(text, rails):
     print("Decrypted text: ({})".format(decrypted_text))
 
 
-print("--- Encryption ---")
-# Using the corrected encryption function from before
-cipher_encryption("HELLO WORLD", 3)
-cipher_encryption("blah blah blah", 2)
-
-print("\n--- Decryption ---")
-# Decrypting the outputs
-cipher_decryption("HOLELWRDLO", 3)
-cipher_decryption("bababalhlhlh", 2)

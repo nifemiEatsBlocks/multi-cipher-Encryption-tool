@@ -23,4 +23,3 @@ def vigenere (key, text, mode):
             result += letter
 
     return result
-
