@@ -35,19 +35,3 @@ def affine_decrypt(ciphertext, a, b):
         else:
             decrypted_text += char
     return decrypted_text
-
-
-# Example:
-plaintext = "Hello World"
-a = 5
-b = 8
-
-print(f"Original Text: {plaintext}")
-
-# --- Encryption ---
-encrypted = affine_encrypt(plaintext, a, b)
-print(f"Encrypted Text:  {encrypted}")
-
-# --- Decryption ---
-decrypted = affine_decrypt(encrypted, a, b)
-print(f"Decrypted Text:  {decrypted}")

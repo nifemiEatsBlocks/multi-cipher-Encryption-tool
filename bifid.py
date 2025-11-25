@@ -64,15 +64,3 @@ def bifid_decrypt(ciphertext, key):
         plaintext += grid[index]
     return plaintext 
 
-key = 'SECRET'
-message = 'HELLO WORLD'
-
-print(key)
-print(message)
-
-encrypted = bifid_encrypt(message, key)
-print(encrypted)
-
-decrypted = bifid_decrypt(encrypted, key)
-print(decrypted)
-

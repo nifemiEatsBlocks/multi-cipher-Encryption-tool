@@ -31,8 +31,3 @@ def polybius_decrypt(ciphertext):
     return plaintext
 
 
-msg = "HELLO"
-enc = polybius_encrypt(msg)
-print(f"Original: {msg}")
-print(f"Encrypted: {enc}")
-print(f"Decrypted: {polybius_decrypt(enc)}")

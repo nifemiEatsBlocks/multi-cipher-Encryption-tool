@@ -63,11 +63,5 @@ def foursquare_decrypt(ciphertext, key1, key2):
 
     return plaintext
 
-k1 = "SECRET"
-k2 = "PASSWORD"
-msg = "ATTACKATDAWN"
 
-enc = foursquare_encrypt(msg, k1, k2)
-print(f"Encrypted: {enc}")
-print(f"Decrypted: {foursquare_decrypt(enc, k1, k2)}")
 

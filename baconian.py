@@ -37,8 +37,3 @@ def baconian_decrypt(ciphertext):
             plaintext += "?"
     return plaintext
 
-msg = "CODE"
-enc = baconian_encrypt(msg)
-print(msg)
-print(enc)
-print(f" / {baconian_decrypt(enc)}")

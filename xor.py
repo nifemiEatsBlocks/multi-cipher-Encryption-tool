@@ -8,14 +8,3 @@ def xor_cipher(text, key):
 
     return bytes( [x ^ y for x, y in zip(text,key)])
 
-
-original_text = "blah blah tr"
-
-key = b'secret'
-
-encrypted = xor_cipher(original_text, key )
-
-print(encrypted)
-
-decrypted  = xor_cipher(encrypted, key)
-print(decrypted)

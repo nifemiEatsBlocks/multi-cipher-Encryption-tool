@@ -22,12 +22,3 @@ def beaufort_cipher(text, key):
 
     return result
 
-key = 'KEY'
-text = "HELLO WORLD"
-
-encrypted = beaufort_cipher(text, key)
-print(f"Plain: {text}")
-print(f"Encrypted: {encrypted}")
-
-decrypted = beaufort_cipher(encrypted, key)
-print(f"Decrypted: {decrypted}")
