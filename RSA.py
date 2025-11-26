@@ -1,4 +1,4 @@
-print("satrt")
+
 import random
 
 def mod_inverse(a, m):

@@ -32,7 +32,7 @@ def cipher_encryption(text, rails):
     
     encrypt_text = encrypt_text.replace(".", "")
 
-    print("Encrypted Text : ({})".format(encrypt_text))
+    return encrypt_text
 
 
 def cipher_decryption(text, rails):
@@ -75,6 +75,6 @@ def cipher_decryption(text, rails):
             direction =-1
 
         row += direction
-    print("Decrypted text: ({})".format(decrypted_text))
+    return decrypted_text
 
 
